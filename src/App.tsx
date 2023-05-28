@@ -1,19 +1,16 @@
 import React from 'react'
 import './App.css'
-import { Greet } from './components/Greet'
-import { Heading } from './components/Heading'
-import { Oscar } from './components/Oscar'
-import { Status } from './components/Status'
+import { Button } from './components/Button'
+
 
 function App() {
   return (
     <>
-      <Status status="success" />
-      <Heading>Placeholder text</Heading>
-      <Oscar>
-        <Heading>Oscar goes to Leonardo Dicpario!</Heading>
-      </Oscar>
-      <Greet name="Samir" isLoggedIn={false} />
+      <Button
+        handleClick={(event, id) => {
+          console.log("Button clicked", event, id)
+        }}
+      />
     </>
   )
 }

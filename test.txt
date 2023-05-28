@@ -1,6 +1,9 @@
 // import { Greet } from './components/Greet'
 // import { Person } from './components/Person'
 // import { PersonList } from './components/PersonList'
+// import { Heading } from './components/Heading'
+// import { Oscar } from './components/Oscar'
+// import { Status } from './components/Status'
 
 // const personName = {
 //   first: "Bruce",
@@ -23,5 +26,11 @@
 // ]
 
 {/* <Person name={personName} />
-<Greet name="Samir" messageCount={20} isLoggedIn={false} />
-<PersonList names={nameList} /> */}
+    <Greet name="Samir" messageCount={20} isLoggedIn={false} />
+    <PersonList names={nameList} /> */}
+
+{/* <Status status="success" />
+    <Heading>Placeholder text</Heading>
+    <Oscar>
+      <Heading>Oscar goes to Leonardo Dicpario!</Heading>
+    </Oscar> */}
