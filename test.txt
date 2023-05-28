@@ -1,0 +1,27 @@
+// import { Greet } from './components/Greet'
+// import { Person } from './components/Person'
+// import { PersonList } from './components/PersonList'
+
+// const personName = {
+//   first: "Bruce",
+//   last: "Wayne"
+// }
+
+// const nameList = [
+//   {
+//     first: 'Bruce',
+//     last: 'Wayne'
+//   },
+//   {
+//     first: 'Clark',
+//     last: 'Kent'
+//   },
+//   {
+//     first: 'Princess',
+//     last: 'Diana'
+//   }
+// ]
+
+{/* <Person name={personName} />
+<Greet name="Samir" messageCount={20} isLoggedIn={false} />
+<PersonList names={nameList} /> */}
