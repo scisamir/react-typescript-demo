@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import { User } from './components/state/User'
+import { Counter } from './components/state/Counter'
 
 function App() {
   return (
     <>
-      <User />
+      <Counter />
     </>
   )
 }
