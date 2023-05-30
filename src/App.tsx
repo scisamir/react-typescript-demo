@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import { Container } from './components/Container'
+import { User } from './components/state/User'
 
 function App() {
   return (
     <>
-      <Container styles={{ border: '1px solid black', padding: '1 rem' }} />
+      <User />
     </>
   )
 }
