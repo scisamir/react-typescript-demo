@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
-import { Counter } from './components/state/Counter'
+import { Box } from './components/context/Box'
+import { ThemeContextProvider } from './components/context/ThemeContext'
 
 function App() {
   return (
     <>
-      <Counter />
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
     </>
   )
 }
