@@ -5,7 +5,7 @@ import { Toast } from './components/templateliterals/Toast'
 function App() {
   return (
     <>
-      <Toast position='left-top' />
+      <Toast position='center' />
     </>
   )
 }
