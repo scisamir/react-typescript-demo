@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import { MutableRef } from './components/ref/MutableRef'
+import { Counter } from './components/class/Counter'
 
 function App() {
   return (
     <>
-      <MutableRef />
+      <Counter message=' The counter value is ' />
     </>
   )
 }
