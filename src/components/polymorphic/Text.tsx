@@ -14,10 +14,11 @@ export const Text = <E extends React.ElementType = 'div'>({
   size,
   color,
   children,
-  as
+  as,
+  ...rest
 }: TextProps<E>) => {
 
   const Component = as || 'div';
 
-  return <Component className={`class-with-${size}-${color}`}>{children}</Component>
+  return <Component className={`class-with-${size}-${color}`} {...rest}>{children}</Component>
 }
