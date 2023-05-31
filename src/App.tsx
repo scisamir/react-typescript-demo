@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
-import { Counter } from './components/class/Counter'
+import { Private } from './components/auth/Private'
+import { Profile } from './components/auth/Profile'
 
 function App() {
   return (
     <>
-      <Counter message=' The counter value is ' />
+      <Private isLoggedIn component={Profile} />
     </>
   )
 }
